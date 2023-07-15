@@ -1,23 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * * Return: Always 0 (Success)
- * */
+ * main - print alphabets except p and e
+ * Return: Always (0)
+ */
 int main(void)
 {
-char c;
-char d;
-c = 'a';
-d = 'A';
-while
-(c <= 'z') {
-putchar(c);
-c++;
+char alphabet = 'a';
+while (alphabet <= 'z')
+{
+if (alphabet != 'q' && alphabet != 'e')
+{
+putchar(alphabet);
 }
-while
-(d <= 'Z') {
-putchar (d);
-d++;
+alphabet++;
 }
 putchar('\n');
 return (0);
