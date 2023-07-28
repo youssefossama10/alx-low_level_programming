@@ -46,7 +46,7 @@ char *cap_string(char *s)
 			*s -= 32;
 			foundDelimit = 0;
 		}
-		else 
+		else
 			foundDelimit = 0;
 		s++;
 	}
